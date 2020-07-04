@@ -1,9 +1,7 @@
 @import 'bootstrap/bootstrap';
 @import 'bootstrap/variables';
 
-$font-primary: 'Poppins',
-Arial,
-sans-serif;
+$font-primary: 'Poppins', Arial, sans-serif;
 
 $white: #fff;
 $black: #121212;
@@ -30,14 +28,13 @@ body {
 		content: '';
 		width: 400px;
 		height: 600px;
-		border: 2px solid rgba(255, 255, 255, .05);
+		border: 2px solid rgba(255, 255, 255, 0.05);
 		z-index: -1;
 		-webkit-transform: rotate(-30deg);
 		-moz-transform: rotate(-30deg);
 		-ms-transform: rotate(-30deg);
 		-o-transform: rotate(-30deg);
 		transform: rotate(-30deg);
-
 	}
 
 	&:before {
@@ -48,7 +45,7 @@ body {
 		content: '';
 		width: 400px;
 		height: 400px;
-		border: 2px solid rgba(255, 255, 255, .05);
+		border: 2px solid rgba(255, 255, 255, 0.05);
 		z-index: -1;
 		-webkit-transform: rotate(20deg);
 		-moz-transform: rotate(20deg);
@@ -73,7 +70,7 @@ body {
 		top: 0px;
 		overflow: hidden;
 		background-color: $black;
-		content: "";
+		content: '';
 		display: table;
 		table-layout: fixed;
 		z-index: 999;
@@ -86,14 +83,14 @@ body {
 		z-index: 99;
 		max-width: 100%;
 		background-color: $primary;
-		-webkit-transition: width .6s ease;
-		-o-transition: width .6s ease;
-		transition: width .6s ease;
+		-webkit-transition: width 0.6s ease;
+		-o-transition: width 0.6s ease;
+		transition: width 0.6s ease;
 	}
 }
 
 a {
-	transition: .3s all ease;
+	transition: 0.3s all ease;
 	color: $primary;
 
 	&:hover {
@@ -121,7 +118,6 @@ h5,
 	color: $primary !important;
 }
 
-
 #colorlib-main-nav {
 	position: absolute;
 	top: 0;
@@ -130,23 +126,23 @@ h5,
 	padding: 0;
 	width: 100%;
 	height: 100%;
-	background: rgba($black, .99);
+	background: rgba($black, 0.99);
 	z-index: 1002;
 	text-align: center;
 	visibility: hidden;
 	opacity: 0;
-	-webkit-transition: all .8s cubic-bezier(.175, .885, .32, 1.275);
-	-moz-transition: all .8s cubic-bezier(.175, .885, .32, 1.275);
-	-ms-transition: all .8s cubic-bezier(.175, .885, .32, 1.275);
-	-o-transition: all .8s cubic-bezier(.175, .885, .32, 1.275);
-	transition: all .8s cubic-bezier(.175, .885, .32, 1.275);
+	-webkit-transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	-moz-transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	-ms-transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	-o-transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 	-webkit-transform: scale(0.1);
-	-moz-transform: scale(0.0);
-	-ms-transform: scale(0.0);
-	-o-transform: scale(0.0);
-	transform: scale(0.0);
+	-moz-transform: scale(0);
+	-ms-transform: scale(0);
+	-o-transform: scale(0);
+	transform: scale(0);
 	// overflow-y: scroll;
-	@include transition(.3s);
+	@include transition(0.3s);
 
 	.colorlib-table {
 		display: table;
@@ -169,7 +165,7 @@ h5,
 				bottom: 0;
 				right: 0;
 				content: '';
-				background: rgba($black, .3);
+				background: rgba($black, 0.3);
 			}
 
 			@include media-breakpoint-up(md) {
@@ -195,7 +191,7 @@ h5,
 		padding: 0 !important;
 		visibility: hidden;
 		opacity: 0;
-		@include transition(.3s);
+		@include transition(0.3s);
 
 		i {
 			top: 18px !important;
@@ -212,10 +208,8 @@ h5,
 		}
 
 		&:hover {
-
 			// background: rgba(0,0,0,1);
 			i {
-
 				&::before,
 				&::after {
 					content: '';
@@ -232,11 +226,11 @@ h5,
 	.menu-show & {
 		visibility: visible;
 		opacity: 1;
-		-webkit-transform: scale(1.0);
-		-moz-transform: scale(1.0);
-		-ms-transform: scale(1.0);
-		-o-transform: scale(1.0);
-		transform: scale(1.0);
+		-webkit-transform: scale(1);
+		-moz-transform: scale(1);
+		-ms-transform: scale(1);
+		-o-transform: scale(1);
+		transform: scale(1);
 	}
 
 	.logo {
@@ -325,10 +319,8 @@ h5,
 				}
 			}
 		}
-
 	}
 }
-
 
 // Header START
 header {
@@ -382,14 +374,11 @@ header {
 	}
 }
 
-
-
 .colorlib-nav-toggle {
 	cursor: pointer;
 	text-decoration: none;
 
 	&.active i {
-
 		&::before,
 		&::after {
 			background: $black;
@@ -398,7 +387,6 @@ header {
 
 	&.dark {
 		&.active i {
-
 			&::before,
 			&::after {
 				background: $black;
@@ -419,11 +407,11 @@ header {
 		width: 40px;
 		height: 2px;
 		color: $black;
-		font: bold 14px/.4 Helvetica;
+		font: bold 14px/0.4 Helvetica;
 		text-transform: uppercase;
 		text-indent: -55px;
 		background: $white;
-		transition: all .2s ease-out;
+		transition: all 0.2s ease-out;
 
 		.menu-show & {
 			background: $white;
@@ -443,7 +431,7 @@ header {
 				background: $white;
 			}
 
-			@include transition(.2s);
+			@include transition(0.2s);
 		}
 	}
 
@@ -452,12 +440,12 @@ header {
 			position: relative;
 			color: $white;
 			background: $white;
-			transition: all .2s ease-out;
+			transition: all 0.2s ease-out;
 
 			&::before,
 			&::after {
 				background: $white;
-				@include transition(.2s);
+				@include transition(0.2s);
 			}
 		}
 	}
@@ -516,7 +504,7 @@ header {
 	position: relative;
 
 	.owl-item {
-		opacity: .4;
+		opacity: 0.4;
 
 		&.active {
 			opacity: 1;
@@ -533,7 +521,7 @@ header {
 			position: absolute;
 			transform: translateY(-50%);
 			margin-top: -10px;
-			@include transition(.7s);
+			@include transition(0.7s);
 
 			span {
 				&:before {
@@ -581,7 +569,6 @@ header {
 
 	&:hover {
 		.owl-nav {
-
 			.owl-prev,
 			.owl-next {
 				opacity: 1;
@@ -635,7 +622,7 @@ header {
 					bottom: 0;
 					font-weight: 700 !important;
 					font-size: 100px;
-					color: rgba(255, 255, 255, .08);
+					color: rgba(255, 255, 255, 0.08);
 				}
 
 				h1 {
@@ -657,10 +644,10 @@ header {
 					font-size: 20px;
 					line-height: 1.5;
 					font-weight: 300;
-					color: rgba(255, 255, 255, .8);
+					color: rgba(255, 255, 255, 0.8);
 
 					a.scroll {
-						color: rgba(255, 255, 255, .6);
+						color: rgba(255, 255, 255, 0.6);
 						font-weight: 400;
 						text-transform: uppercase;
 						letter-spacing: 4px;
@@ -681,7 +668,7 @@ header {
 					letter-spacing: 1px;
 
 					span {
-						border-bottom: 2px solid rgba(255, 255, 255, .1);
+						border-bottom: 2px solid rgba(255, 255, 255, 0.1);
 
 						a {
 							color: $white;
@@ -692,7 +679,6 @@ header {
 		}
 
 		.owl-nav {
-
 			.owl-prev,
 			.owl-next {
 				span {
@@ -703,7 +689,6 @@ header {
 
 		&:hover {
 			.owl-nav {
-
 				.owl-prev,
 				.owl-next {
 					opacity: 1;
@@ -734,17 +719,17 @@ header {
 				border-radius: 50%;
 				background: lighten($black, 90%);
 				background: none;
-				border: 2px solid rgba(255, 255, 255, .5);
+				border: 2px solid rgba(255, 255, 255, 0.5);
 				outline: none !important;
 				position: relative;
-				transition: .3s all ease;
+				transition: 0.3s all ease;
 				display: inline-block;
 
 				span {
 					position: absolute;
 					width: 12px;
 					height: 12px;
-					background: rgba(255, 255, 255, .5);
+					background: rgba(255, 255, 255, 0.5);
 					border-radius: 50% !important;
 					left: 0%;
 					top: 2px;
@@ -822,7 +807,7 @@ header {
 	}
 
 	&.btn-outline-white {
-		border-color: rgba($white, .8);
+		border-color: rgba($white, 0.8);
 		background: none;
 		border-radius: 0px;
 		border-width: 2px;
@@ -834,5 +819,16 @@ header {
 			border-color: $white;
 			color: $black;
 		}
+	}
+}
+
+@media (max-width: 575px) {
+	.company-logo-img {
+		height: 100px !important;
+		width: 300px !important;
+	}
+	.iframe-block {
+		height: 100px !important;
+		width: 300px !important;
 	}
 }
