@@ -204,3 +204,20 @@ $(document).ready(function($) {
 
 });
 
+
+let i=0 ;
+    
+    $('.carousal-slide').click(function(){
+       $('.carousal-active').addClass('nonActive').find('span').empty()
+        $(this).removeClass('nonActive').addClass('carousal-active')
+        i= $(this).index()
+    })
+    
+    setItner = setInterval(go,4000);
+    
+    function go(){
+       $('.carousal-active').addClass('nonActive').find('span').empty()
+        $($('.carousal-slide')[i%6]).removeClass('nonActive').addClass('carousal-active')
+        i++;
+    }
+    
