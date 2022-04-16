@@ -368,12 +368,12 @@
 /* ? Slider Icons */
 
 .slider-body {
-    background-color: #f5f5f515;
+    background-color: #000000;
 }
 
 .slider-body img {
-    width: 100px;
-    height: 100px;
+    width: 250px;
+    height: 250px;
     animation: scroll 60s linear infinite;
 }
 
