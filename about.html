@@ -1,0 +1,26 @@
+<link rel="stylesheet" href="./css/about.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+<div id="app">
+    <div class="logo"></div>
+    <div class="core-content">
+        <div class="core-img-box">
+            <div v-for="(item, key) in coreCount" :key="`core_${key}`" :class="[
+                     'core-img-item',
+                     `img-${item}`,
+                     { active: key === currentKey },
+                     ]"></div>
+            <div v-for="(item, key) in coreCount" :key="`trigger_${key}`" :class="['trigger-area', `trigger-${item}`]"
+                @click="handleSlider(key)"></div>
+        </div>
+        <div class="core-desc-wrapper">
+            <div class="desc-btn prev" @click="goPrev"></div>
+            <div class="core-desc-box" :class="{ fadeout: isTransforming }">
+                {{ coreText[currentKey] }}
+            </div>
+            <div class="desc-btn next" @click="goNext"></div>
+        </div>
+    </div>
+</div>
+
+<script src="./js/about.js"></script>
