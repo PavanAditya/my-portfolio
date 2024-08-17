@@ -71,7 +71,7 @@
       </header>
 
       <section class="ftco-section">
-        <div class="row justify-content-center mb-5 pb-5">
+        <div class="row justify-content-center mt-5 pt-5 mb-5 pb-5">
           <div class="col-md-12 wrap ftco-animate">
             <div class="about-desc">
               <h1 class="bold-text" align="center">Services</h1>
@@ -85,65 +85,30 @@
 
         <!-- ? Client Slider -->
         <div class="slider-body mt-5 mb-5 pt-2 pb-2">
-          <p class="mb-5 mt-3" align="center" style="color: black; font-family: cursive; font-size: 2em;">
-            <strong>Clients Served:</strong></p>
-          <div class="slide-track">
+          <p class="mb-5 mt-3 pb-3" align="center" style="color: black; font-family: system-ui; font-size: 2em;">
+            <strong>Clients Served</strong>
+          </p>
+          <div class="slide-track pb-3">
             <div class="slide">
-              <img src="https://cdn.freebiesupply.com/logos/thumbs/2x/mcdonalds-black-logo.png" alt="">
+              <img src="images/png-logo.png" alt="png-logo">
             </div>
             <div class="slide">
-              <img src="https://cdn.freebiesupply.com/images/large/2x/starbucks-logo-black-and-white.png" alt="">
+              <img src="images/mindtree-logo.png" alt="mindtree-logo">
             </div>
             <div class="slide">
-              <img src="https://cdn.freebiesupply.com/logos/large/2x/general-electric-black-logo-png-transparent.png"
-                alt="">
+              <img src="images/amazon-logo.png" alt="amazon-logo">
             </div>
             <div class="slide">
-              <img src="https://cdn.freebiesupply.com/logos/large/2x/nfl-logo-png-transparent.png" alt="">
+              <img src="images/opentext-logo.png" alt="opentext-logo">
             </div>
             <div class="slide">
-              <img src="https://cdn.freebiesupply.com/logos/large/2x/mercedes-benz-6-logo-png-transparent.png" alt="">
+              <img src="images/adobe-logo.png" alt="adobe-logo">
             </div>
             <div class="slide">
-              <img src="https://cdn.freebiesupply.com/logos/large/2x/hogwarts-logo-png-transparent.png" alt="">
+              <img src="images/aamc-logo.png" alt="aamc-logo">
             </div>
             <div class="slide">
-              <img src="https://cdn.freebiesupply.com/logos/thumbs/2x/mcdonalds-black-logo.png" alt="">
-            </div>
-            <div class="slide">
-              <img src="https://cdn.freebiesupply.com/images/large/2x/starbucks-logo-black-and-white.png" alt="">
-            </div>
-            <div class="slide">
-              <img src="https://cdn.freebiesupply.com/logos/large/2x/general-electric-black-logo-png-transparent.png"
-                alt="">
-            </div>
-            <div class="slide">
-              <img src="https://cdn.freebiesupply.com/logos/large/2x/nfl-logo-png-transparent.png" alt="">
-            </div>
-            <div class="slide">
-              <img src="https://cdn.freebiesupply.com/logos/large/2x/mercedes-benz-6-logo-png-transparent.png" alt="">
-            </div>
-            <div class="slide">
-              <img src="https://cdn.freebiesupply.com/logos/large/2x/hogwarts-logo-png-transparent.png" alt="">
-            </div>
-            <div class="slide">
-              <img src="https://cdn.freebiesupply.com/logos/thumbs/2x/mcdonalds-black-logo.png" alt="">
-            </div>
-            <div class="slide">
-              <img src="https://cdn.freebiesupply.com/images/large/2x/starbucks-logo-black-and-white.png" alt="">
-            </div>
-            <div class="slide">
-              <img src="https://cdn.freebiesupply.com/logos/large/2x/general-electric-black-logo-png-transparent.png"
-                alt="">
-            </div>
-            <div class="slide">
-              <img src="https://cdn.freebiesupply.com/logos/large/2x/nfl-logo-png-transparent.png" alt="">
-            </div>
-            <div class="slide">
-              <img src="https://cdn.freebiesupply.com/logos/large/2x/mercedes-benz-6-logo-png-transparent.png" alt="">
-            </div>
-            <div class="slide">
-              <img src="https://cdn.freebiesupply.com/logos/large/2x/hogwarts-logo-png-transparent.png" alt="">
+              <img src="images/bricksfolios-logo.png" alt="bricksfolios-logo">
             </div>
           </div>
           <p class="mb-5 mt-5 pt-2 pb-2" align="center"></p>
@@ -154,11 +119,15 @@
           <div class="col-md-12" align="center">
             <!-- ? My Projects -->
 
+            <h3 class="mt-3 mb-3 pb-5"
+              style="font-size: 4em; font-weight: 900; color: #80808080; font-family: cursive;">Personal Works</h3>
+
             <div id="wrapper">
               <div class="toggles">
                 <select id="select-button" onchange="clickButton()" label="filter">
                   <option value="show-all">Show All</option>
                   <option value="plain">Plain HTML</option>
+                  <option value="js">Vanilla JS</option>
                   <option value="angular">Angular</option>
                   <option value="react">React</option>
                   <option value="vue">Vue</option>
@@ -166,6 +135,7 @@
                 </select>
                 <button id="show-all">Show All</button>
                 <button id="plain">Plain HTML</button>
+                <button id="js">Vanilla JS</button>
                 <button id="angular">Angular</button>
                 <button id="react">React</button>
                 <button id="vue">Vue</button>
@@ -176,24 +146,25 @@
                 <div class="vue post">
 
                   <article class="card card__content">
-                    <figure class="header">
+                    <figure class="header header-weather">
                       <figcaption class="header__caption" role="presentation">
-                        <span class="header__tag tag--primary">Coding Experience</span>
-                        <span class="header__tag tag--secondary"><span id="tag">modern</span>CSS</span>
+                        <span class="header__tag tag--primary">Weather Forecast Webapp</span>
+                        <span class="header__tag tag--secondary"><span id="tag">Tech Stack: </span>VENOM</span>
                       </figcaption>
                     </figure>
                     <main class="card__body">
-                      <h1 class="title--primary">Stand out from the crowd</h1>
-                      <h2 class="title--secondary">Create your own style!</h2>
-                      <p class="description">Lorem ipsum dolor sit amet, adipisicing elit. Nulla ullam minus maiores
-                        impedit, eaque, fuga aut dolor numquam dolorum provident.</p>
+                      <h1 class="title--primary">Get My Weather</h1>
+                      <h2 class="title--secondary"><i class="fa-brands fa-vuejs"
+                          style="font-size: x-large; color: teal; padding-right: 2px;"></i> VueJs</h2>
+                      <p class="description">Get the current weather details with readily available with your current
+                        location. Also supports type and search option for other locations.</p>
                     </main>
                     <footer class="footer">
                       <div class="expand__indicator" align="left">
                         <span class="link__text">See more</span>
                       </div>
                       <nav class="footer__navigation">
-                        <a href="#" class="icon__link">
+                        <a href="https://getmyweather.pavanaditya.com/" target="_blank" class="icon__link">
                           <i class="fas fa-link"></i>
                         </a>
                       </nav>
@@ -205,24 +176,27 @@
                 <div class="plain post">
 
                   <article class="card card__content">
-                    <figure class="header">
+                    <figure class="header header-terminal">
                       <figcaption class="header__caption" role="presentation">
-                        <span class="header__tag tag--primary">Coding Experience</span>
-                        <span class="header__tag tag--secondary"><span id="tag">modern</span>CSS</span>
+                        <span class="header__tag tag--primary">Pavan Aditya's Portfolio</span>
+                        <span class="header__tag tag--secondary"><span id="tag">Tech Stack: </span>HTML</span>
                       </figcaption>
                     </figure>
                     <main class="card__body">
-                      <h1 class="title--primary">Stand out from the crowd</h1>
-                      <h2 class="title--secondary">Create your own style!</h2>
-                      <p class="description">Lorem ipsum dolor sit amet, adipisicing elit. Nulla ullam minus maiores
-                        impedit, eaque, fuga aut dolor numquam dolorum provident.</p>
+                      <h1 class="title--primary">Terminal Portfolio</h1>
+                      <h2 class="title--secondary"><i class="fa-brands fa-html5"
+                          style="font-size: x-large; color: orangered; padding-right: 2px;"></i> HTML
+                      </h2>
+                      <p class="description">A Terminal styled Portfolio of Mylavarapu Sai Pavan Aditya providing an
+                        interface with a list
+                        of commands for further interaction.</p>
                     </main>
                     <footer class="footer">
                       <div class="expand__indicator" align="left">
                         <span class="link__text">See more</span>
                       </div>
                       <nav class="footer__navigation">
-                        <a href="#" class="icon__link">
+                        <a href="https://pavanaditya.com/" class="icon__link">
                           <i class="fas fa-link"></i>
                         </a>
                       </nav>
@@ -232,26 +206,27 @@
                 </div>
 
                 <div class="angular post">
-
                   <article class="card card__content">
-                    <figure class="header">
+                    <figure class="header header-sellmobiles">
                       <figcaption class="header__caption" role="presentation">
-                        <span class="header__tag tag--primary">Coding Experience</span>
-                        <span class="header__tag tag--secondary"><span id="tag">modern</span>CSS</span>
+                        <span class="header__tag tag--primary">OLX Clone App</span>
+                        <span class="header__tag tag--secondary"><span id="tag">Tech Stack: </span>MEAN</span>
                       </figcaption>
                     </figure>
                     <main class="card__body">
-                      <h1 class="title--primary">Stand out from the crowd</h1>
-                      <h2 class="title--secondary">Create your own style!</h2>
-                      <p class="description">Lorem ipsum dolor sit amet, adipisicing elit. Nulla ullam minus maiores
-                        impedit, eaque, fuga aut dolor numquam dolorum provident.</p>
+                      <h1 class="title--primary">Sell Mobiles</h1>
+                      <h2 class="title--secondary"><i class="fa-brands fa-angular"
+                          style="font-size: x-large; color: red; padding-right: 2px;"></i>
+                        Angular</h2>
+                      <p class="description">An online mobile shopping app built on Angular 8(frontend) &
+                        NodeJs(backend) with multiple modules offering an encrypted end-to-end user communication.</p>
                     </main>
                     <footer class="footer">
                       <div class="expand__indicator" align="left">
                         <span class="link__text">See more</span>
                       </div>
                       <nav class="footer__navigation">
-                        <a href="#" class="icon__link">
+                        <a href="https://sellmobiles.pavanaditya.com/" class="icon__link">
                           <i class="fas fa-link"></i>
                         </a>
                       </nav>
@@ -263,24 +238,59 @@
                 <div class="react post">
 
                   <article class="card card__content">
-                    <figure class="header">
+                    <figure class="header header-packurbags">
                       <figcaption class="header__caption" role="presentation">
-                        <span class="header__tag tag--primary">Coding Experience</span>
-                        <span class="header__tag tag--secondary"><span id="tag">modern</span>CSS</span>
+                        <span class="header__tag tag--primary">Make My Trip Clone</span>
+                        <span class="header__tag tag--secondary"><span id="tag">Tech Stack: </span>MERN</span>
                       </figcaption>
                     </figure>
                     <main class="card__body">
-                      <h1 class="title--primary">Stand out from the crowd</h1>
-                      <h2 class="title--secondary">Create your own style!</h2>
-                      <p class="description">Lorem ipsum dolor sit amet, adipisicing elit. Nulla ullam minus maiores
-                        impedit, eaque, fuga aut dolor numquam dolorum provident.</p>
+                      <h1 class="title--primary">Pack Ur Bags</h1>
+                      <h2 class="title--secondary">
+                        <h2 class="title--secondary"><i class="fa-brands fa-react"
+                            style="font-size: x-large; color: cornflowerblue; padding-right: 2px;"></i>
+                          React</h2>
+                        <p class="description">An online webapp created to clone Make My Trip application. It offers
+                          multiple options like ticket booking, hotel reservation and many more.</p>
                     </main>
                     <footer class="footer">
                       <div class="expand__indicator" align="left">
                         <span class="link__text">See more</span>
                       </div>
                       <nav class="footer__navigation">
-                        <a href="#" class="icon__link">
+                        <a href="https://packurbags.pavanaditya.com/" class="icon__link">
+                          <i class="fas fa-link"></i>
+                        </a>
+                      </nav>
+                    </footer>
+                  </article>
+
+                </div>
+
+                <div class="js post">
+
+                  <article class="card card__content">
+                    <figure class="header header-js">
+                      <figcaption class="header__caption" role="presentation">
+                        <span class="header__tag tag--primary">JS Interview Preparation</span>
+                        <span class="header__tag tag--secondary"><span id="tag">Tech Stack: </span>JS</span>
+                      </figcaption>
+                    </figure>
+                    <main class="card__body">
+                      <h1 class="title--primary">JS Playgroud</h1>
+                      <h2 class="title--secondary">
+                        <h2 class="title--secondary"><i class="fa-brands fa-js"
+                            style="font-size: x-large; color: gold; padding-right: 2px;"></i> Vanilla JS
+                        </h2>
+                        <p class="description">A Github repository containing all the basic JS Concepts and Interview
+                          Preperation Questions covering all the core topics of Vanilla Javascript.</p>
+                    </main>
+                    <footer class="footer">
+                      <div class="expand__indicator" align="left">
+                        <span class="link__text">See more</span>
+                      </div>
+                      <nav class="footer__navigation">
+                        <a href="https://github.com/PavanAditya/JS-Playground" target="_blank" class="icon__link">
                           <i class="fas fa-link"></i>
                         </a>
                       </nav>
@@ -292,24 +302,26 @@
                 <div class="plain post">
 
                   <article class="card card__content">
-                    <figure class="header">
+                    <figure class="header header-perspective">
                       <figcaption class="header__caption" role="presentation">
-                        <span class="header__tag tag--primary">Coding Experience</span>
-                        <span class="header__tag tag--secondary"><span id="tag">modern</span>CSS</span>
+                        <span class="header__tag tag--primary">A Multi-Perspective Display App</span>
+                        <span class="header__tag tag--secondary"><span id="tag">Tech Stack: </span>JS</span>
                       </figcaption>
                     </figure>
                     <main class="card__body">
-                      <h1 class="title--primary">Stand out from the crowd</h1>
-                      <h2 class="title--secondary">Create your own style!</h2>
-                      <p class="description">Lorem ipsum dolor sit amet, adipisicing elit. Nulla ullam minus maiores
-                        impedit, eaque, fuga aut dolor numquam dolorum provident.</p>
+                      <h1 class="title--primary">Change your POV</h1>
+                      <h2 class="title--secondary"><i class="fa-brands fa-js"
+                          style="font-size: x-large; color: gold; padding-right: 2px;"></i> Vanilla JS
+                      </h2>
+                      <p class="description">A Plain HTML CSS webpage created for showing multiple UI screens in
+                        different sizes, shaped and perspectives.</p>
                     </main>
                     <footer class="footer">
                       <div class="expand__indicator" align="left">
                         <span class="link__text">See more</span>
                       </div>
                       <nav class="footer__navigation">
-                        <a href="#" class="icon__link">
+                        <a href="https://perspective.pavanaditya.com/ class=" icon__link">
                           <i class="fas fa-link"></i>
                         </a>
                       </nav>
@@ -321,24 +333,26 @@
                 <div class="angular post">
 
                   <article class="card card__content">
-                    <figure class="header">
+                    <figure class="header header-bookmymovie">
                       <figcaption class="header__caption" role="presentation">
-                        <span class="header__tag tag--primary">Coding Experience</span>
-                        <span class="header__tag tag--secondary"><span id="tag">modern</span>CSS</span>
+                        <span class="header__tag tag--primary">Online Ticket Booking App</span>
+                        <span class="header__tag tag--secondary"><span id="tag">Tech Stack: </span>MEAN</span>
                       </figcaption>
                     </figure>
                     <main class="card__body">
-                      <h1 class="title--primary">Stand out from the crowd</h1>
-                      <h2 class="title--secondary">Create your own style!</h2>
-                      <p class="description">Lorem ipsum dolor sit amet, adipisicing elit. Nulla ullam minus maiores
-                        impedit, eaque, fuga aut dolor numquam dolorum provident.</p>
+                      <h1 class="title--primary">Book My Movie</h1>
+                      <h2 class="title--secondary"><i class="fa-brands fa-angular"
+                          style="font-size: x-large; color: red; padding-right: 2px;"></i> Angular</h2>
+                      <p class="description">An online ticket booking app built as clone for Book My Show. Using Angular
+                        10(frontend) &
+                        NodeJs(backend) along with NGRX & payment gateway.</p>
                     </main>
                     <footer class="footer">
                       <div class="expand__indicator" align="left">
                         <span class="link__text">See more</span>
                       </div>
                       <nav class="footer__navigation">
-                        <a href="#" class="icon__link">
+                        <a href="https://bookmymovie.pavanaditya.com/" class="icon__link">
                           <i class="fas fa-link"></i>
                         </a>
                       </nav>
@@ -350,82 +364,29 @@
                 <div class="react-native post">
 
                   <article class="card card__content">
-                    <figure class="header">
+                    <figure class="header header-peekaboo-android">
                       <figcaption class="header__caption" role="presentation">
-                        <span class="header__tag tag--primary">Coding Experience</span>
-                        <span class="header__tag tag--secondary"><span id="tag">modern</span>CSS</span>
+                        <span class="header__tag tag--primary">An Android App</span>
+                        <span class="header__tag tag--secondary"><span id="tag">Tech Stack: </span>React-Native,
+                          Android</span>
                       </figcaption>
                     </figure>
                     <main class="card__body">
-                      <h1 class="title--primary">Stand out from the crowd</h1>
-                      <h2 class="title--secondary">Create your own style!</h2>
-                      <p class="description">Lorem ipsum dolor sit amet, adipisicing elit. Nulla ullam minus maiores
-                        impedit, eaque, fuga aut dolor numquam dolorum provident.</p>
+                      <h1 class="title--primary">Peek-A-Boo</h1>
+                      <h2 class="title--secondary"><i class="fa-brands fa-react"
+                          style="font-size: x-large; color: cornflowerblue; padding-right: 2px;"></i> React-Native <i
+                          class="fa-brands fa-android" style="font-size: x-large; color: green; padding-left: 2px;"></i>
+                      </h2>
+                      <p class="description">An Android App which offers P2P Video calling feature. <br /> Available on
+                        Google
+                        Playstore.</p>
                     </main>
                     <footer class="footer">
                       <div class="expand__indicator" align="left">
                         <span class="link__text">See more</span>
                       </div>
                       <nav class="footer__navigation">
-                        <a href="#" class="icon__link">
-                          <i class="fas fa-link"></i>
-                        </a>
-                      </nav>
-                    </footer>
-                  </article>
-
-                </div>
-
-                <div class="plain post">
-
-                  <article class="card card__content">
-                    <figure class="header">
-                      <figcaption class="header__caption" role="presentation">
-                        <span class="header__tag tag--primary">Coding Experience</span>
-                        <span class="header__tag tag--secondary"><span id="tag">modern</span>CSS</span>
-                      </figcaption>
-                    </figure>
-                    <main class="card__body">
-                      <h1 class="title--primary">Stand out from the crowd</h1>
-                      <h2 class="title--secondary">Create your own style!</h2>
-                      <p class="description">Lorem ipsum dolor sit amet, adipisicing elit. Nulla ullam minus maiores
-                        impedit, eaque, fuga aut dolor numquam dolorum provident.</p>
-                    </main>
-                    <footer class="footer">
-                      <div class="expand__indicator" align="left">
-                        <span class="link__text">See more</span>
-                      </div>
-                      <nav class="footer__navigation">
-                        <a href="#" class="icon__link">
-                          <i class="fas fa-link"></i>
-                        </a>
-                      </nav>
-                    </footer>
-                  </article>
-
-                </div>
-
-                <div class="vue post">
-
-                  <article class="card card__content">
-                    <figure class="header">
-                      <figcaption class="header__caption" role="presentation">
-                        <span class="header__tag tag--primary">Coding Experience</span>
-                        <span class="header__tag tag--secondary"><span id="tag">modern</span>CSS</span>
-                      </figcaption>
-                    </figure>
-                    <main class="card__body">
-                      <h1 class="title--primary">Stand out from the crowd</h1>
-                      <h2 class="title--secondary">Create your own style!</h2>
-                      <p class="description">Lorem ipsum dolor sit amet, adipisicing elit. Nulla ullam minus maiores
-                        impedit, eaque, fuga aut dolor numquam dolorum provident.</p>
-                    </main>
-                    <footer class="footer">
-                      <div class="expand__indicator" align="left">
-                        <span class="link__text">See more</span>
-                      </div>
-                      <nav class="footer__navigation">
-                        <a href="#" class="icon__link">
+                        <a href="https://play.google.com/store/apps/details?id=com.msppeekaboo" class="icon__link">
                           <i class="fas fa-link"></i>
                         </a>
                       </nav>
@@ -437,53 +398,26 @@
                 <div class="react post">
 
                   <article class="card card__content">
-                    <figure class="header">
+                    <figure class="header header-peekaboo">
                       <figcaption class="header__caption" role="presentation">
-                        <span class="header__tag tag--primary">Coding Experience</span>
-                        <span class="header__tag tag--secondary"><span id="tag">modern</span>CSS</span>
+                        <span class="header__tag tag--primary">A Video Conferencing Webapp</span>
+                        <span class="header__tag tag--secondary"><span id="tag">Tech Stack: </span>MERN</span>
                       </figcaption>
                     </figure>
                     <main class="card__body">
-                      <h1 class="title--primary">Stand out from the crowd</h1>
-                      <h2 class="title--secondary">Create your own style!</h2>
-                      <p class="description">Lorem ipsum dolor sit amet, adipisicing elit. Nulla ullam minus maiores
-                        impedit, eaque, fuga aut dolor numquam dolorum provident.</p>
+                      <h1 class="title--primary">Peek-A-Boo - Web</h1>
+                      <h2 class="title--secondary"><i class="fa-brands fa-react"
+                          style="font-size: x-large; color: cornflowerblue; padding-right: 2px;"></i> React
+                      </h2>
+                      <p class="description">A Web equivalent of the Peek-a-Boo Android App which offers P2P Video
+                        calling feature. Also supports Web to Android Video Call feature.</p>
                     </main>
                     <footer class="footer">
                       <div class="expand__indicator" align="left">
                         <span class="link__text">See more</span>
                       </div>
                       <nav class="footer__navigation">
-                        <a href="#" class="icon__link">
-                          <i class="fas fa-link"></i>
-                        </a>
-                      </nav>
-                    </footer>
-                  </article>
-
-                </div>
-
-                <div class="react-native post">
-
-                  <article class="card card__content">
-                    <figure class="header">
-                      <figcaption class="header__caption" role="presentation">
-                        <span class="header__tag tag--primary">Coding Experience</span>
-                        <span class="header__tag tag--secondary"><span id="tag">modern</span>CSS</span>
-                      </figcaption>
-                    </figure>
-                    <main class="card__body">
-                      <h1 class="title--primary">Stand out from the crowd</h1>
-                      <h2 class="title--secondary">Create your own style!</h2>
-                      <p class="description">Lorem ipsum dolor sit amet, adipisicing elit. Nulla ullam minus maiores
-                        impedit, eaque, fuga aut dolor numquam dolorum provident.</p>
-                    </main>
-                    <footer class="footer">
-                      <div class="expand__indicator" align="left">
-                        <span class="link__text">See more</span>
-                      </div>
-                      <nav class="footer__navigation">
-                        <a href="#" class="icon__link">
+                        <a href="https://peek-a-boo.pavanaditya.com/" class="icon__link">
                           <i class="fas fa-link"></i>
                         </a>
                       </nav>
@@ -517,29 +451,11 @@
                   <li><a href="https://github.com/PavanAditya" target="_"><span class="icon-github"></span></a></li>
                 </ul>
               </div>
-              <!-- <div class="ftco-footer-widget">
-                <h2 class="mb-3">Get Me Here</h2>
-                <p class="h3 email"><a href="mailto:pavanaditya.ms@gmail.com">pavanaditya.ms@gmail.com</a></p>
-              </div> -->
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12 text-center">
-
-              <p>
-                Copyright &copy;
-                <script>
-                  document.write(new Date().getFullYear());
-                </script> All rights reserved | Made with <i class="icon-heart" aria-hidden="true"
-                  style="color: red;"></i> by <a href="https://www.facebook.com/pavanaditya.ms" target="_">Pavan
-                  Aditya</a>
-              </p>
             </div>
           </div>
         </div>
       </footer>
 
-      <!-- loader -->
       <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
           <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
           <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
