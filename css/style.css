@@ -12642,6 +12642,14 @@ textarea.form-control {
   stroke-linecap: round;
 }
 
+.quests-shortfilms {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
 @-webkit-keyframes loader-rotate {
   100% {
     -webkit-transform: rotate(360deg);
@@ -12698,7 +12706,7 @@ textarea.form-control {
 
   .iframe-block {
     position: relative;
-    padding-bottom: 56.25%;
+    padding-bottom: 75%;
     /* 16:9 */
     padding-top: 25px;
     height: 0;
@@ -12861,6 +12869,9 @@ textarea.form-control {
     100% {
       opacity: 1;
     }
+  }
+  .ftco-section {
+    padding: 5em 1em;
   }
 }
 

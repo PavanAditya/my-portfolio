@@ -436,6 +436,13 @@
     color: var(--blue-accent100);
 }
 
+@media screen and (max-width: 475px) {
+    .card {
+        --width: 20rem;
+        --height: 25rem;
+    }
+}
+
 /* ? Slider Icons */
 
 .slider-body {

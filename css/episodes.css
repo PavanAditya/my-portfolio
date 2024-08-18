@@ -669,6 +669,16 @@ h6 {
     .about-desc h2 {
         font-size: large !important;
     }
+    .about-desc {
+        margin-top: 25%;
+    }
+    .wrap .about-desc .bold-text {
+        left: 0;
+    }
+    .timeline-row:nth-child(2n + 2) .start-point.end-point {
+        transform: translateX(0);
+        left: 25%;
+    }
 }
 
 @media screen and (min-width: 767px) {
